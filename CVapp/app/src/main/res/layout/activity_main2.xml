@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mm"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Your CV Info"
+        android:textColor="#3C50BC"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="Name:"
+        android:textColor="#70217E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNum"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="239dp"
+        android:fontFamily="serif"
+        android:text="Email:"
+        android:textColor="#70217E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userAge"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="Job:"
+        android:textColor="#70217E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userJob"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="serif"
+        android:text="Phonr number:"
+        android:textColor="#70217E"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="Age:"
+        android:textColor="#70217E"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="habiba"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/userAge"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="16"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/userJob"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="240dp"
+        android:fontFamily="serif"
+        android:text="student"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:autoLink="email"
+        android:fontFamily="serif"
+        android:minHeight="48dp"
+        android:text="totado2006@gmail.com"
+        android:textColorLink="#5B0AEC"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/userNum"
+        android:layout_width="208dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="153dp"
+        android:fontFamily="serif"
+        android:text="90016398"
+        android:textColorLink="#5B0AEC"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="136dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="serif"
+        android:text="call"
+        android:textAllCaps="false"
+        android:textColor="#5B0AEC"
+        android:textSize="30sp" />
+
+</RelativeLayout>
